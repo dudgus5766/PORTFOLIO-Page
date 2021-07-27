@@ -17,19 +17,19 @@
             <a href="index.html"><img src="asset/IMG_3723.PNG" width="240px";></a>
         </div>
         <ul class="navbar-menu">
-            <li class="menu-about"><a href="#about">ABOUT</a></li>
-            <li class="menu-goal"><a href="#goal">GOAL</a></li>
-            <li class="menu-contact"><a href="#contact">CONTACT</a></li>    
+            <li class="menu-about" id="menu-about"><a href="#">ABOUT</a></li>
+            <li class="menu-goal" id="menu-goal"><a href="#">GOAL</a></li>
+            <li class="menu-contact" id="menu-contact"><a href="#">CONTACT</a></li>    
         </ul>
     </nav>
     <div class="all-content" id="home">
         <div class="content">
             <div class="home">
                 <h1><span id="dynamic" class="text"></span><span class="cursor">l</span></h1>
-                    <br>
-                    <img src="asset/IMG_3756.PNG">
-                   
-                
+                <br>
+                <img class="face" src="asset/IMG_3756.PNG">
+                <a href="#"><img class="go" id="go" src="asset/go.png"></a>
+                <script src="script/goScroll.js"></script>
             </div>
         </div>
         <div class="content2" id="content2">
@@ -46,9 +46,8 @@
                     <div class="profile-content2">
                         <h3>EDUCATION</h3><br><p>OO대학교 산업 디자인학과</p><br><p class="number">2012~2019</p><br><br><br><br><br><br>
                         <h3>WORK</h3><br><p>OOOO 디지털그래픽파트</p><p>/ 그래픽 디자이너</p><br><p class="number">2019.06 ~ 21.05</p>
-                        <div class="channels">
-                            
-                        </div>
+                        <div class="channels">   
+                    </div>
                     </div>
                     <div class="profile-content2">
                         <h3>SKILL</h3><br><p>Photoshop / Illustrator</p><p>3DS MAX</p><br><br><br><br><br><br><br>
@@ -59,26 +58,45 @@
             </div>
             <div class="goal" id="goal">
                 <h2>GOAL</h2>
-                <div class="goal-boxes">
-                    <div class="goal-box">
-                        <h3>열심히 하기</h3><br>
-                        <img src="asset/se3_image_532896681.jpeg">
-                        <p>내가 할 수 있는 최대한의 모든 것을<br>뽑아내어 열심히 학업을 진행할 것!<br>늦었다 생각하지 않고 천천히!</p>
-                    </div>
-                    <div class="goal-box">
-                        <h3>재취업 하기</h3><br>
-                        <img src="asset/5fd6b339b39be.jpeg">
-                        <p>얼마가 걸릴지는 모르겠지만<br>할 수 있는 한 빠르게 취뽀!<br>판교길만 걷자!!</p>
-                    </div>
-                    <div class="goal-box">
-                        <h3>건강 챙기기</h3><br>
-                        <img src="asset/123.jpeg">
-                        <p>학업도 중요하지만 정말 중요한 건 '건강'!<br>건강보다 중요한 건 없다.<br>힘들더라도 집와서 꾸준히 운동하기.</p>
-                    </div>
+                <div class="goal-boxes1">
+                    <ul class="goal-boxes" id="goal-boxes">
+                        <li class="goal-box" id="goal-box">
+                            <h3>열심히 하기</h3><br>
+                            <img src="asset/se3_image_532896681.jpeg">
+                            <p>내가 할 수 있는 최대한의 모든 것을<br>뽑아내어 열심히 학업을 진행할 것!<br>늦었다 생각하지 않고 천천히!</p>
+                        </li>
+                        <li class="goal-box">
+                            <h3>재취업 하기</h3><br>
+                            <img src="asset/5fd6b339b39be.jpeg">
+                            <p>얼마가 걸릴지는 모르겠지만<br>할 수 있는 한 빠르게 취뽀!<br>판교길만 걷자!!</p>
+                        </li>
+                        <li class="goal-box">
+                            <h3>건강 챙기기</h3><br>
+                            <img src="asset/123.jpeg">
+                            <p>학업도 중요하지만 정말 중요한 건 '건강'!<br>건강보다 중요한 건 없다.<br>힘들더라도 집와서 꾸준히 운동하기.</p>
+                        </li>
+                        <li class="goal-box">
+                            <h3>건강 챙기기</h3><br>
+                            <img src="asset/123.jpeg">
+                            <p>학업도 중요하지만 정말 중요한 건 '건강'!<br>건강보다 중요한 건 없다.<br>힘들더라도 집와서 꾸준히 운동하기.</p>
+                        </li>
+                        <li class="goal-box">
+                            <h3>건강 챙기기</h3><br>
+                            <img src="asset/123.jpeg">
+                            <p>학업도 중요하지만 정말 중요한 건 '건강'!<br>건강보다 중요한 건 없다.<br>힘들더라도 집와서 꾸준히 운동하기.</p>
+                        </li>
+
+                    </ul>
                 </div>
+
+
             </div>
         </div>
     </div>
+    <a href="#" class = "controls">
+        <span id="prev"><</span>
+        <span id="next">></span>
+    </a>
     <footer class="contact" id="contact">
         <div class="contact-content">
             <a href="https://www.instagram.com/0hyun0hyun/" target="blank"><img src="asset/IMG_3760.PNG" alt=""></a>
@@ -91,6 +109,7 @@
         <a id="back-to-top" href="#">Top</a>
     </footer>
     <script src = "script/typing.js"></script>
-
+    <script src = "script/backToTop.js"></script>
+    <script src = "script/slide.js"></script>
 </body>
 </html>
