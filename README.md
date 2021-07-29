@@ -1,6 +1,6 @@
 # PORTFOLIO-Page
 <br>
-<img src="https://images.velog.io/images/rhfovk/post/97940280-40ae-4e9e-889c-9dffb76cd8f1/5.gif">
+<img src="https://images.velog.io/images/rhfovk/post/eedbc74d-ce60-4f02-aa0c-e123ff91e648/5-1.gif">
 
 **HTML, CSS 그리고 JavaScript로 만든 자기소개 페이지**<br/>
 직접 백지에서 코드를 직접 짜면서 진행했다!<br/>
